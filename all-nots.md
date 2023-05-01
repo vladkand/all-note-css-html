@@ -1,4 +1,6 @@
-# \*\* для ссылок aria-label
+# /* * для ссылок aria-label */
+
+    
 
 # - button - по умолчаию НЕ наследует шрифт
 
@@ -17,3 +19,11 @@
         button{
             cursor: pointer;
         }
+
+# Переменные лучше задавать для отдельных сущностей
+    т.е.
+         --footer-color-txt: #fff;
+         --header-color-txt: #fff;
+         --section-bg-color: teal;
+         --logo-color-txt: teal;
+    
